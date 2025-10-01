@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>LuckyNumber</title>
+  </head>
+  <body>
+    <header class="header">
+      <button class="header__button btn">Снова!</button>
+      <h3 class="header__h3 text">(Число между 1 и 20)</h3>
+    </header>
+    <section class="section-lucky">
+      <h1 class="section-lucky__h1 text">Угадай число</h1>
+      <div class="section-lucky__result">?</div>
+    </section>
+    <section class="input-lucky">
+      <label class="input-lucky_text text">Начните угадывать...</label>
+
+      <input class="input-lucky__number" type="number" value="" />
+      <label class="input-lucky__label1 text"
+        >Количество попыток: <span class="input-lucky__span1">20</span></label
+      >
+      <label class="input-lucky__label2 text"
+        >Рекорд: <span class="input-lucky__span2">0</span></label
+      >
+
+      <button class="input-lucky__btn-check btn">Проверка!</button>
+    </section>
+
+    <script src="js/js.js"></script>
+  </body>
+</html>
